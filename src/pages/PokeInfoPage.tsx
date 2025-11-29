@@ -10,7 +10,7 @@ const PokeInfoPage = () => {
 	});
 	return (
 		<PageContainer>
-			<img src="./public/image/cabezapoke.png" alt="imagen encabezado" />
+			<img src="./image/cabezapoke.png" alt="imagen encabezado" />
 			<div className="relative shadow-gray-500 min-h-[60vh] flex flex-col items-center justity-center bg-white/40 p-6 rounded-lg shadow-lg mt-4">
 			<div className='bg-green-400 w-full h-30 opacity-20 rounded-2xl'> </div>
 			{isLoading && <p>Cargando..</p>}
