@@ -22,7 +22,7 @@ const HomePage = () => {
 		<PageContainer>
 			<div className="flex flex-col items-center justity-center gap-4 text-center min-h-[60vh]">
 				<header className="flex items-center">
-				   <img className="mx-auto mt-30" src="./image/logo.png" alt="logo" />
+				   <img className="mx-auto mt-24" src="./image/logo.png" alt="logo" />
 				</header>
 
 				<h2 className="text-4xl text-red-700 font-bold mt-20">!Hola Entrenador!</h2>

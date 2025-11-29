@@ -65,7 +65,7 @@ const PokedexPage = () => {
 			<img src="./image/cabezapoke.png" alt="imagen encabezado" />
 			<p className="text-2xl"><span className='text-red-600'>Bienvenido(@) {trainer}</span>, aquí  podrás encontrar tu pokemón favorito.</p>
 
-			<div className="flex flex-wrap gap-4 items-center justify-center mt-4">
+			<div className="flex flex-wrap gap-4 items-center justify-center mt-2">
 				<SearchBar />
 				<TypeSelect />
 				
